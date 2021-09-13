@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-url = input('Input your account name on Twitter: ') 
+url = input('Input your account link on Twitter: ') 
 req = requests.get(url)
 
 bs = BeautifulSoup(req.text,'html.parser')
