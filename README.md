@@ -10,10 +10,9 @@
   
 ## Exercise No.4
 
-### Install Requirement
-    '''
+### Install Requirement   
     pip install beautifulsoup4
-    '''
+ 
   
   For twitter_follower.py , I used requests and Beautiful Soup library. Since twitter is blocking the parse request, the parse HTML file will be error file.
   If the html file is accessible, by using beautiful soup, find the span class which contains the follower count will return the follower numbers of the url given.
