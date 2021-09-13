@@ -1,12 +1,7 @@
 import random
 
-START = 1
-END   = 50
-LIMIT = 11
-
-
 def get_lottery_number():
-    number = [random.randint(START, END) for _ in range(1, LIMIT)]
+    number = random.sample(range(1, 50), 10)
     number.sort()
     return number
 
