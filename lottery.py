@@ -5,6 +5,4 @@ def get_lottery_number():
     number.sort()
     return number
 
-
-if __name__ == '__main__':
-    print(get_lottery_number())
+print(get_lottery_number())
