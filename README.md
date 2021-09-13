@@ -3,7 +3,7 @@
   
 
 ## Unit Tests for Exercise No.2
-  1. Unit Test for testing if the output is 10 numbers.
+  1. Unit Test for testing if the output list count is 10.
   2. Unit Test for testing if the output is not duplicated
   3. Unit Test for testing if the output is in ascending order.
   4. Unit Test for testing if the output is within the range 1 to 50.
